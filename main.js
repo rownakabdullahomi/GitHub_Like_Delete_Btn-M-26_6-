@@ -12,4 +12,5 @@ document.getElementById("delete-input").addEventListener("keyup", function(event
 document.getElementById("btn-delete").addEventListener("click", function(){
    
     document.getElementById("delete-text").style.display = "none";
+    document.getElementById("delete-input").value = "";
 });
