@@ -3,6 +3,9 @@ document.getElementById("delete-input").addEventListener("keyup", function(event
     if(event.target.value === "delete"){
         document.getElementById("btn-delete").removeAttribute("disabled");
     }
+    else{
+        document.getElementById("btn-delete").setAttribute("disabled", true);
+    }
     
 });
 
